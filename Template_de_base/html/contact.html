@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head class="headd">
     <meta charset="UTF-8" />
-    <title>Experiences</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>contact</title>
     <h1>Bienvenue a mon portfolio!</h1>
     <nav>
       <ul>
@@ -33,36 +34,43 @@
   <body>
     <section>
       <h2>Contact Me</h2>
-      <div>
-        <div>
-          <img
-            src="C:\Users\judos\Desktop\Template_de_base\img\contact-visual.png"
-          />
-        </div>
-        <form class="contact__form">
-          <input
-            class="contact__form-el contact__form-el--name"
-            type="text"
-            placeholder="Your Name"
-            spellcheck="false"
-          />
-          <input
-            class="contact__form-el contact__form-el--email"
-            type="email"
-            placeholder="Your Email"
-            spellcheck="false"
-          />
-          <textarea
-            class="contact__form-el contact__form-el--message"
-            placeholder="Your Message"
-          ></textarea>
-          <input
-            class="contact__form-el contact__form-el--submit"
-            type="submit"
-            value="Send"
-          />
-        </form>
-      </div>
+      <table cellspacing="90">
+        <tr>
+          <td>
+            <img
+              id="location"
+              src="C:\Users\judos\Desktop\Template_de_base\img\contact-visual.png"
+            />
+          </td>
+          <td>
+            <div class="form">
+              <form class="contact__form">
+                <input
+                  class="contact__form-el contact__form-el--name"
+                  type="text"
+                  placeholder="Your Name"
+                  spellcheck="false"
+                />
+                <input
+                  class="contact__form-el contact__form-el--email"
+                  type="email"
+                  placeholder="Your Email"
+                  spellcheck="false"
+                />
+                <textarea
+                  class="contact__form-el contact__form-el--message"
+                  placeholder="Your Message"
+                ></textarea>
+                <input
+                  class="contact__form-el contact__form-el--submit"
+                  type="submit"
+                  value="Send"
+                />
+              </form>
+            </div>
+          </td>
+        </tr>
+      </table>
     </section>
     <footer>
       <p>&copy; 2023 Nassim Khaldi. Tous droits réservés.</p>
